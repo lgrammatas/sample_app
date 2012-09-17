@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
+
 gem 'jquery-rails'
 gem 'json'
 
@@ -14,9 +15,9 @@ group :development do
   gem 'rspec-rails','2.11'
 end
 
-group :development, :test do gem 
-  'sqlite3', :require => 'sqlite3' 
-end
+group :development, :test do 
+  gem 'sqlite3', '1.3.6'  
+end 
 
 group :test do
   gem 'rspec', '2.11'
