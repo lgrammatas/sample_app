@@ -37,6 +37,15 @@ git remote set-url origin <SSH-URL> # to enable SSH
 4) create .gitignore
 5) rails s # open the sever
 6) rails generate controller Pages #Create the controllers
+7) spork
+
+
+To create a new page:
+
+> Controler
+> Routers
+> Pages
+> Templates
 
 
 
