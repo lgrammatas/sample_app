@@ -1,4 +1,9 @@
 SampleApp::Application.routes.draw do
+# THIS is where we are configuring the REST application
+
+  get "pages/home"
+  get "pages/contact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

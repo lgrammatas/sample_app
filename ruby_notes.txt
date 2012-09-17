@@ -1,0 +1,44 @@
+#Config git
+# adds the name for the machine
+git config --global user.name "name"  
+git config --global user.email l.grammatas@gmail.com
+
+git checkout -b modify-README # create a new branch
+it checkout -f # reset the branch
+
+git commit -am "Stupid change" # Commit a change
+
+git branch # see all the branches
+git branch -D <branch2delete> # delete
+
+git merge <branch>
+
+#start a new app
+rails new first_app
+
+#setup git
+.gitignore # files to ignore
+git init # initialize git files
+git add . # add all the files
+git commit -m "Initial commit" # Commits the changes in the buffer
+
+
+#Utilities
+git status # get the status
+git log # get the changes that have been made
+
+git remote add origin git@github.com:lgrammatas/first_app.git
+
+git remote set-url origin <SSH-URL> # to enable SSH
+
+1) Create the default directory
+2) Update the Gemfile and buildinstall
+3) rails generate rspec:install # Generate the test
+4) create .gitignore
+5) rails s # open the sever
+6) rails generate controller Pages #Create the controllers
+
+
+
+ 
+
